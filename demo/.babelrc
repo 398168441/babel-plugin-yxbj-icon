@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    [
+      "../index",
+      {
+        "libraryName": "@yxbj-icons",
+        "cacheDir": "./src/images/__generated__",
+        "cacheExpired": 60000,
+        "iconServer": "http://localhost:3001/component"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "babel-plugin-yxbj-icon",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "ps",
+  "dependencies": {
+    "fs-extra": "^11.1.0",
+    "sync-fetch": "^0.4.2"
+  }
+}
