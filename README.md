@@ -5,6 +5,7 @@
 # 配置
 
 - libraryName Icon 组件路径（不需要真实存在，为了后续替换）
+- cacheExpired 缓存时间
 - cacheDir 缓存的组件存放位置
 - iconServer 请求 Icon 的服务器地址
 
