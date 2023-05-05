@@ -56,8 +56,9 @@ module.exports = function (componentName, opts) {
   const componentPath = path.resolve(opts.cacheDir, `${componentName}.jsx`);
   const iconUrl = genIconPath(componentName, opts.iconServer);
   if (
-    !isAccessable(componentPath) ||
-    isExpired(componentPath, opts.cacheExpired)
+    /* !isAccessable(componentPath) ||
+    isExpired(componentPath, opts.cacheExpired) */
+    !isAccessable(componentPath)
   ) {
     console.log(`\nloadIcon----- ${componentName}`);
     loadIcon(iconUrl, componentPath);
